@@ -18,5 +18,11 @@
     <ClCompile Include="helloworld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="employee.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
