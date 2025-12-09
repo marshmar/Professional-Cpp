@@ -1,3 +1,4 @@
+#pragma once
 import <iostream>;
 import <format>;
 import employee;
