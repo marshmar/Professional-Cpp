@@ -60,5 +60,17 @@
     <ClCompile Include="1.1.21 initializer_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="airline_ticket.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="airline_ticket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.23 practice_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.25 designated initializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
