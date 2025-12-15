@@ -18,5 +18,8 @@
     <ClCompile Include="..\Chapter1. C++ 표준 라이브러리 초단기 속성 코스\pt_25_12_14.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pt_25_12_15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

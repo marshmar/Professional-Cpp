@@ -72,5 +72,14 @@
     <ClCompile Include="1.1.25 designated initializer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1.1.30 reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.30 const reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.30 reference vs pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
