@@ -10,13 +10,13 @@ public:
 	double calculatePriceInDolloars();
 
 	std::string getPassengerName();
-	void setPassengerName(std::string name);
+	void setPassengerName(const std::string& name);
 
-	int getNumberOfMiles();
+	int getNumberOfMiles() const;
 	void setNumberOfMiles(int miles);
 
-	bool hasEliteSuperRewardsStatus();
-	void setHasEliteSuperRewardsStatus(bool status);
+	bool hasEliteSuperRewardsStatus() const;
+	void setHasEliteSuperRewardsStatus(const bool status);
 
 private:
 	std::string m_passengerName;

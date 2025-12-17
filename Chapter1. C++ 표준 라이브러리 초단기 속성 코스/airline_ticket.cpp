@@ -24,5 +24,5 @@ double AirlineTicket::calculatePriceInDolloars()
 }
 
 std::string AirlineTicket::getPassengerName() { return m_passengerName; }
-void AirlineTicket::setPassengerName(std::string name) { m_passengerName = name; }
+void AirlineTicket::setPassengerName(const std::string& name) { m_passengerName = name; }
 

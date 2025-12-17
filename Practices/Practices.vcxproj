@@ -104,7 +104,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <EnableModules>true</EnableModules>
-      <CompileAs>CompileAsCppModuleInternalPartition</CompileAs>
+      <CompileAs>CompileAsCppModule</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,10 +133,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Chapter1. C++ 표준 라이브러리 초단기 속성 코스\pt_25_12_16.cpp" />
+    <ClCompile Include="..\Chapter1. C++ 표준 라이브러리 초단기 속성 코스\pt_25_12_16.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="pt_25_12_15.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="pt_25_12_17.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

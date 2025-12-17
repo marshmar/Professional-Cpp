@@ -105,7 +105,7 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <EnableModules>true</EnableModules>
       <BuildStlModules>true</BuildStlModules>
-      <CompileAs>CompileAsCppModule</CompileAs>
+      <CompileAs>Default</CompileAs>
       <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
     </ClCompile>
     <Link>
@@ -208,7 +208,10 @@
     <ClCompile Include="1.1.35 type inference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1.2 main.cpp" />
+    <ClCompile Include="1.2 main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1.2.4 main.cpp" />
     <ClCompile Include="airline_ticket.cpp">
       <AdditionalModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </AdditionalModuleDependencies>
@@ -223,11 +226,24 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="employee.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="Database.ixx">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCppModule</CompileAs>
+    </ClCompile>
+    <ClCompile Include="DatabaseTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Default</CompileAs>
+    </ClCompile>
     <ClCompile Include="employee.ixx">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <FileType>Document</FileType>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCppModule</CompileAs>
+    </ClCompile>
+    <ClCompile Include="EmployeeTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="helloworld.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
