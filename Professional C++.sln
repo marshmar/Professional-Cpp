@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter1. C++ 표준 라이
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practices", "Practices\Practices.vcxproj", "{5CCFCCFE-3978-4121-856E-B17B0AE7D968}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter2. 스트링과 스트링 뷰 다루기", "Chapter2\Chapter2.vcxproj", "{3EEA311D-52D6-4857-B752-33372919085A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{5CCFCCFE-3978-4121-856E-B17B0AE7D968}.Release|x64.Build.0 = Release|x64
 		{5CCFCCFE-3978-4121-856E-B17B0AE7D968}.Release|x86.ActiveCfg = Release|Win32
 		{5CCFCCFE-3978-4121-856E-B17B0AE7D968}.Release|x86.Build.0 = Release|Win32
+		{3EEA311D-52D6-4857-B752-33372919085A}.Debug|x64.ActiveCfg = Debug|x64
+		{3EEA311D-52D6-4857-B752-33372919085A}.Debug|x64.Build.0 = Debug|x64
+		{3EEA311D-52D6-4857-B752-33372919085A}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EEA311D-52D6-4857-B752-33372919085A}.Debug|x86.Build.0 = Debug|Win32
+		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x64.ActiveCfg = Release|x64
+		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x64.Build.0 = Release|x64
+		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x86.ActiveCfg = Release|Win32
+		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
