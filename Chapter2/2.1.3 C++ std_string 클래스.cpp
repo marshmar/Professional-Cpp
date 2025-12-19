@@ -1,5 +1,7 @@
 import <iostream>;
 import <string>;
+import <vector>;
+
 using namespace std;
 
 int main()
@@ -49,5 +51,9 @@ int main()
 
 	cout << typeid(string1).name() << endl;
 	cout << typeid(string2).name() << endl;
+
+	// vector CTAD
+	vector names{ "John", "Sam", "Joe" };		// const char*로 추론
+	vector names2{ "John"s, "Sam"s, "Joe"s };	// string으로 추론
 	return 0;
 }
