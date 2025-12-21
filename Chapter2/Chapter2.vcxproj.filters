@@ -30,5 +30,11 @@
     <ClCompile Include="2.1.5 string_view 클래스.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.2 스트링 포맷 지정.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2.1 포맷 지정자.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
