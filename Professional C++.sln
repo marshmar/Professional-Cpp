@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practices", "Practices\Prac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter2. 스트링과 스트링 뷰 다루기", "Chapter2\Chapter2.vcxproj", "{3EEA311D-52D6-4857-B752-33372919085A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter5. 객체지향 설계", "Chapter5. 객체지향 설계\Chapter5. 객체지향 설계.vcxproj", "{FE3463AE-A1E4-4D3B-98BB-F61E03138546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x64.Build.0 = Release|x64
 		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x86.ActiveCfg = Release|Win32
 		{3EEA311D-52D6-4857-B752-33372919085A}.Release|x86.Build.0 = Release|Win32
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Debug|x64.ActiveCfg = Debug|x64
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Debug|x64.Build.0 = Debug|x64
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Debug|x86.Build.0 = Debug|Win32
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x64.ActiveCfg = Release|x64
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x64.Build.0 = Release|x64
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x86.ActiveCfg = Release|Win32
+		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
