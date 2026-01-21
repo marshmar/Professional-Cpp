@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter2. 스트링과 스�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter5. 객체지향 설계", "Chapter5. 객체지향 설계\Chapter5. 객체지향 설계.vcxproj", "{FE3463AE-A1E4-4D3B-98BB-F61E03138546}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter6. 재사용을 고려한 설계", "Chapter6. 재사용을 고려한 설계\Chapter6. 재사용을 고려한 설계.vcxproj", "{CF2DFE52-E0B6-4652-8155-50EA610D4A80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x64.Build.0 = Release|x64
 		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x86.ActiveCfg = Release|Win32
 		{FE3463AE-A1E4-4D3B-98BB-F61E03138546}.Release|x86.Build.0 = Release|Win32
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Debug|x64.ActiveCfg = Debug|x64
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Debug|x64.Build.0 = Debug|x64
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Debug|x86.Build.0 = Debug|Win32
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Release|x64.ActiveCfg = Release|x64
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Release|x64.Build.0 = Release|x64
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Release|x86.ActiveCfg = Release|Win32
+		{CF2DFE52-E0B6-4652-8155-50EA610D4A80}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
